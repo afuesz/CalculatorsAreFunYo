@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/calculator_background">
+
+    <fragment android:name="com.example.ehi.calculatorsarefun.fragments.DisplayFragment"
+        android:id="@+id/fragment_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"/>
+
+    <fragment android:name="com.example.ehi.calculatorsarefun.fragments.KeypadFragment"
+        android:id="@+id/fragment_keypad"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
